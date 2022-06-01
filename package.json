@@ -1,0 +1,23 @@
+{
+  "name": "react-final-form-accessing-other-field-values-forked",
+  "description": "Example to access the value of other react-final-form fields, to impact form behaviour.",
+  "version": "0.0.0",
+  "dependencies": {
+    "final-form": "latest",
+    "final-form-calculate": "1.0.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-final-form": "latest",
+    "react-fontawesome": "latest",
+    "styled-components": "latest"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
