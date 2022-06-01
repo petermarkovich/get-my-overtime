@@ -14,7 +14,7 @@ const onSubmit = async (values) => {
 };
 const App = () => (
   <Styles>
-    <h1>🏁Get overtime🏁</h1>
+    <h1>Get overtime</h1>
     <Form
       onSubmit={onSubmit}
       initialValues={initialValues}
