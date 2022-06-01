@@ -58,7 +58,7 @@ const App = () => (
             <h2>
               {(Number(values.hours) - Number(values["required-hours"])) *
                 ((Number(values.salary) / 176) * 1.5).toFixed(3)}{" "}
-              UAH
+              $
             </h2>
           </form>
         );
