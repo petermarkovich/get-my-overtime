@@ -53,11 +53,14 @@ const App = () => (
             </div>
             <h5>
               #template: ({values.hours} - {values["required-hours"]}) *((
-              {values.salary} /176) * 1.5)
+              {values.salary}/{Number(values["required-hours"])}) * 1.5)
             </h5>
             <h2>
               {(Number(values.hours) - Number(values["required-hours"])) *
-                ((Number(values.salary) / 176) * 1.5).toFixed(3)}{" "}
+                (
+                  (Number(values.salary) / Number(values["required-hours"])) *
+                  1.5
+                ).toFixed(3)}{" "}
               $
             </h2>
           </form>
